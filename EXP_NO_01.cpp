@@ -2,7 +2,8 @@
 #include<string>
 using namespace std;
 
-class Student{
+class Student 
+{
 	string name;
 	int age;
 	string department;
@@ -80,8 +81,6 @@ int main() {
     cout<<endl;
     s1.display();
     cout<<endl;
-
-    
     
     Employee e1("",0,"","");
     e1.get_Data();
